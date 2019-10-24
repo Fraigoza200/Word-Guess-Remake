@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+
+    background:url('https://media-cdn.tripadvisor.com/media/photo-s/14/e8/cf/ec/sunset-with-the-hills.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: pixelated;
+}
+
+
+#image{
+    width:100%;
+    height: auto;
+}
+#directions-text{
+    font-weight: bold;
+}
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    body{
+        background:url('https://www.imore.com/sites/imore.com/files/styles/w830/public/field/image/2017/11/airplane-view-iphone-x-wallpaper-01.jpg?itok=XjreEpz0');
+    }
+
+    .container{
+        width: 100%;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-left: 20%;
+    }
+ }
+
